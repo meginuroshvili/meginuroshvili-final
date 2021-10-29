@@ -109,6 +109,10 @@
     display: flex;
     justify-content: space-between;
 }
+.socials i:hover {
+    color: var(--yellow);
+    transition: 0.4s linear;
+}
 .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-linkedin-in {
     color: var(--white);
 }
