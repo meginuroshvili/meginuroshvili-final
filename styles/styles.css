@@ -73,7 +73,7 @@
     color: var(--yellow);
 }
 .standard {
-    max-width: 1000px;
+    max-width: 1050px;
     width: 100%;
     height: 200px;
     margin: 0 auto;
@@ -355,5 +355,12 @@
     margin-bottom: 30px;
     font-size: 26px;
     font-family: 'Sarpanch';
-    font-weight: 550;
+    font-weight: 50;
+}
+.divider {
+    max-width: 1200px;
+    width: 100%;
+    height: 0.3px;
+    background-color: #dcdcdc;
+    margin: 70px auto;
 }
