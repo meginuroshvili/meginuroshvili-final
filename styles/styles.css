@@ -502,6 +502,9 @@
     color: var(--darkgrey);
     font-family: 'Roboto';
 }
+.copyright span {
+    color: white;
+}
 .terms a {
     color: var(--darkgrey);
     font-family: 'Roboto';
