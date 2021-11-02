@@ -104,7 +104,7 @@
     margin-right: auto;
     margin-left: auto;
 }
-.discover p {
+.discover a {
     font-size: 16px;
     color: var(--grey);
     font-family: 'Roboto';
