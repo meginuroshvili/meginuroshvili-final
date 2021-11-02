@@ -8,6 +8,9 @@
 :root{
     --white : #FFFFFF
 }
+:root {
+    --darkgrey : #8a8a8a
+}
 .bg-div {
     background-image: url(../images/hero-1.jpg);
     background-repeat: no-repeat;
@@ -367,7 +370,7 @@
     max-width: 1200px;
     width: 100%;
     height: 0.3px;
-    background-color: #dcdcdc;
+    background-color: #c0c0c0;
     margin: 70px auto;
 }
 .box-wraper {
@@ -392,10 +395,11 @@
     font-size: 20px;
     margin-left: 10px;
 }
+/* footer styles */
 .footer-bg {
     background-image: url(../images/footer-bg.jpg);
     width: 100%;
-    height: 600px;
+    height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 70px;
@@ -406,4 +410,107 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+.footer-bg input {
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #d3d3d3;
+    letter-spacing: 0.6px;
+    font-family: 'Roboto';
+}
+.footer-bg input::placeholder {
+    font-size: 14px;
+    font-weight: 100;
+    color: #d3d3d3;
+    letter-spacing: 0.6px;
+}
+.footer-bg button {
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: var(--yellow);
+}
+.sendmail {
+    width: 350px;
+    height: 50px;
+    display: flex;
+}
+.footer-divider {
+    max-width: 1200px;
+    width: 100%;
+    height: 0.2px;
+    background-color: #636363;
+    margin: 70px auto;
+}
+.comp-info {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.footer-logo {
+    margin-bottom: 20px;
+}
+.address a, .address li {
+    color: var(--darkgrey);
+    font-size: 15px;
+    font-family: 'Roboto';
+    margin-bottom: 30px;
+    width: 170px;
+}
+.box h5 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    margin-bottom: 30px;
+}
+.box li {
+    margin-bottom: 30px;
+}
+.box a {
+    color: var(--darkgrey);
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+.address-CA {
+    color: var(--darkgrey);
+    font-size: 15px;
+    font-family: 'Roboto';
+    width: 170px;
+}
+.copyright {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1em;
+}
+.terms {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p {
+    color: var(--darkgrey);
+    font-family: 'Roboto';
+}
+.terms a {
+    color: var(--darkgrey);
+    font-family: 'Roboto';
+}
+.terms p:nth-child(1)::after {
+    content: '';
+    width: 1.5px;
+    height: 15px;
+    display: inline-block;
+    background-color: var(--darkgrey);
+    margin-left: 8px;
 }
