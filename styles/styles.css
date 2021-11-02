@@ -519,3 +519,14 @@
     background-color: var(--darkgrey);
     margin-left: 8px;
 }
+/* project html styles */
+/* header styles */
+.project-bg {
+    background-image: url(../images/projects/breadcrumb-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 460px;
+    padding-top: 84px;
+}
