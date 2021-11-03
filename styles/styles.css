@@ -249,14 +249,14 @@
     top: 50px;
     left: 50px;
 }
-.section2 h2, .section3 h2, .section4 h2, .left h2 {
+.section2 h2, .section3 h2, .section4 h2, .left h2, .team h2 {
     color: var(--yellow);
     font-size: 17px;
     font-family: 'Roboto';
     margin-bottom: 20px;
     font-weight: 500;
 }
-.section2 h3, .section3 h3, .section4 h3, .left h3{
+.section2 h3, .section3 h3, .section4 h3, .left h3, .team h3{
     font-size: 42px;
     font-family: 'Sarpanch';
     margin-bottom: 30px;
@@ -274,7 +274,7 @@
     font-family: 'Roboto';
     letter-spacing: 1px;
 }
-.section2 a {
+.section2 a, .team a, .project-section a {
     width: 140px;
     height: 50px;
     display: block;
@@ -288,7 +288,7 @@
     padding: 15px;
     text-align: center;
 }
-.section2 a::before {
+.section2 a::before, .team a::before, .project-section a::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -301,7 +301,7 @@
     transition: all 0.5s ease;
     transition-delay: 0.5s;
 }
-.section2 a::after {
+.section2 a::after, .team a::after, .project-section a::after {
     content: '';
     position: absolute;
     right: 0;
@@ -314,12 +314,12 @@
     transition: all 0.5s ease;
     transition-delay: 0.5s;
 }
-.section2 a:hover:before {
+.section2 a:hover:before, .team a:hover:before, .project-section a:hover::before {
     width: 97%;
     height: 97%;
     transition-delay: 0s;
 }
-.section2 a:hover:after {
+.section2 a:hover:after, .team a:hover:after, .project-section a:hover:after {
     width: 98%;
     height: 95%;
     transition-delay: 0s;
@@ -597,55 +597,7 @@
     margin-bottom: 0;
 }
 .project-section a {
-    width: 140px;
-    height: 50px;
-    display: block;
-    position: relative;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Roboto';
-    color: black;
-    width: 150px;
-    height: 50px;
-    padding: 15px;
-    text-align: center;
     margin: 70px auto;
-}
-.project-section a::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 15px;
-    height: 15px;
-    border-bottom: 2px solid var(--grey);
-    border-left: 2px solid var(--grey);
-    display: inline-block;
-    transition: all 0.5s ease;
-    transition-delay: 0.5s;
-}
-.project-section a::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 15px;
-    height: 15px;
-    border-right: 2px solid var(--grey);
-    border-top: 2px solid var(--grey);
-    display: inline-block;
-    transition: all 0.5s ease;
-    transition-delay: 0.5s;
-}
-.project-section a:hover:before {
-    width: 97%;
-    height: 97%;
-    transition-delay: 0s;
-}
-.project-section a:hover:after {
-    width: 98%;
-    height: 95%;
-    transition-delay: 0s;
 }
 /* about styles */
 .block-wraper {
@@ -716,4 +668,44 @@
     color: white;
     font-size: 20px;
     font-family: 'Roboto';
+}
+.teams-section {
+    margin: 100px auto;
+}
+.team {
+    max-width: 1200px;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.team-members {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.team-members div {
+    position: relative;
+    text-align: center;
+}
+.name {
+    position: absolute;
+    bottom: 90px;
+    left: 25px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.prof {
+    position: absolute;
+    bottom: 60px;
+    left: 25px;
+    font-size: 14px;
+    color: var(--yellow);
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
 }
