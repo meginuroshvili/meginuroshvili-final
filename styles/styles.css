@@ -20,7 +20,7 @@
     height: 960px;
     padding-top: 84px;
 }
-.header-section header, .project-header header, .about-header header {
+.header-section header, .project-header header, .about-header header, .contact-header header{
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -34,29 +34,29 @@
     background-color: rgba(13, 13, 13, 0.6);
     padding-bottom: 8px;
 }
-.header-section ul, .project-header ul,  .about-header ul{
+.header-section ul, .project-header ul,  .about-header ul, .contact-header ul{
     max-width: 780px;
     width: 100%;
     height: 30px;
     display: flex;
 }
-.header-section ul li, .project-header  ul li, .about-header ul li {
+.header-section li, .project-header li, .about-header li, .contact-header li {
     margin-right: 40px;
     font-family: 'Roboto';
     font-weight: bold;
 }
-.header-section ul li:nth-child(1), .project-header ul li:nth-child(2), .about-header ul li:nth-child(3)  {
+.header-section li:nth-child(1), .project-header li:nth-child(2), .about-header li:nth-child(3), .contact-header li:nth-child(5)  {
     border-bottom: solid;
     border-radius: 1px;
     border-color: var(--yellow);
 }
-.header-section ul li:hover, .project-header ul li:hover, .about-header ul li:hover {
+.header-section li:hover, .project-header li:hover, .about-header li:hover, .contact-header li:hover {
     border-bottom: solid;
     border-radius: 1px;
     border-color: var(--yellow);
     transition: 0.4s ease;
 }
-.header-section ul li a, .project-header ul li a, .about-header ul li a {
+.header-section li a, .project-header li a, .about-header li a, .contact-header li a {
     color: var(--white);
 }
 .header-section ul li:nth-child(6){
@@ -708,4 +708,12 @@
     color: var(--yellow);
     font-family: 'Roboto';
     letter-spacing: 0.5px;
+}
+/* contact styles */
+.contact-header {
+    background-image: url(../images/contact/little-header.jpg);
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
