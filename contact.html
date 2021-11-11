@@ -77,8 +77,8 @@
         <div class="contact-information">
             <h2>INFORMATION</h2>
             <h3>CONTACT DETAILS</h3>
-            <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict attention.</p>
-            <div>
+            <p class="contact-p">As you might expect of a company that began as a high-end interiors contractor, we pay strict attention.</p>
+            <div class="contact-wraper">
                 <div>
                     <img src="images/contact/ci-1.png" alt="phone-icon">
                     <p>
@@ -95,9 +95,135 @@
                 </div>
             </div>
         </div>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55971.184967688714!2d-74.13361616296463!3d40.710886217195224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2526d69524199%3A0xed575358ee588506!2sPort%20Newark!5e0!3m2!1sen!2sge!4v1636028338988!5m2!1sen!2sge" width="1100" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55971.184967688714!2d-74.13361616296463!3d40.710886217195224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2526d69524199%3A0xed575358ee588506!2sPort%20Newark!5e0!3m2!1sen!2sge!4v1636028338988!5m2!1sen!2sge" width="1100" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
+    <section>
+      <div class="form-section">
+        <h2>FORM</h2>
+        <h3>GET IN TOUCH</h3>
+        <p>As you might expect of a company that began as a high-end interiors contractor, we pay strict attention.</p>
+      <form action="">
+        <div class="form">
+          <div class="form-element">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname" placeholder="Name">
+          </div>
+          <div class="form-element">
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email">
+          </div>
+          <div class="message-area">
+            <label for="message"></label>
+            <textarea
+              class="message-form"
+              name="yourmessage"
+              id="message"
+              placeholder="Message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+        <div class="send-button">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-bg">
+        <div class="mail">
+          <p>READY TO WORK WITH US?</p>
+          <form action="#">
+            <div class="sendmail">
+              <label for="email"></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email..."
+              />
+
+              <button class="button" type="submit">
+                <img src="images/index/send.svg" alt="send" />
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="footer-divider"></div>
+        <div class="comp-info">
+          <div>
+            <img class="footer-logo" src="images/index/logo.png" alt="logo" />
+            <ul class="address">
+              <li>7176 Blue Spring Lane Santa Monica, CA 90403</li>
+              <li>
+                <a href="mailto:mailto:name@email.com"
+                  >Info.colorlib@gmail.com</a
+                >
+              </li>
+              <li><a href="tel:+84123456789">+84 123 456 789</a></li>
+            </ul>
+            <div class="socials">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <a href="https://twitter.com/" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://instagram.com/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="box">
+            <h5>Company</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Our Work</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="box">
+            <h5>Services</h5>
+            <ul>
+              <li><a href="#">Architecture</a></li>
+              <li><a href="#">Interior Design</a></li>
+              <li><a href="#">Exterior Design</a></li>
+              <li><a href="#">Planning</a></li>
+            </ul>
+          </div>
+          <div class="box">
+            <h5>Get In Touch</h5>
+            <ul>
+              <li class="address-CA">7176 Blue Spring Lane Santa Monica, CA 90403</li>
+              <li>
+                <a href="mailto:mailto:name@email.com"
+                  >Info.colorlib@gmail.com</a
+                >
+              </li>
+              <li><a href="tel:+84123456789">+84 123 456 789</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+
+          <div class="copyright">
+            <p>Copyright © 2021 All rights reserved | This template is made with  by <span>Colorlib</span></p>
+            <div class="terms">
+              <p><a href="#">Terms of use</a></p>
+              <p><a href="#">Privacy Policy</a></p>
+            </div>
+          </div>
+      </div>
+    </footer>
 </body>
 </html>
