@@ -25,6 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     padding: 15px 10px 0 20px;
     position: fixed;
     top: 0;
@@ -76,6 +77,9 @@
     display: none;
     font-size: 40px;
     color: var(--yellow);
+    position: absolute;
+    top: 15px;
+    right: 10px;
 }
 .standard {
     max-width: 1050px;
@@ -159,7 +163,7 @@
     transition-delay: 0s;
 }
 .standard a:hover:after {
-    width: 99%;
+    width: 98%;
     height: 99%;
     transition-delay: 0s;
 }
@@ -315,13 +319,13 @@
     transition-delay: 0.5s;
 }
 .section2 a:hover:before, .team a:hover:before, .project-section a:hover::before {
-    width: 97%;
-    height: 97%;
+    width: 99%;
+    height: 99%;
     transition-delay: 0s;
 }
 .section2 a:hover:after, .team a:hover:after, .project-section a:hover:after {
-    width: 98%;
-    height: 95%;
+    width: 99%;
+    height: 99%;
     transition-delay: 0s;
 }
 .section3 h2, .section3 h3 {
