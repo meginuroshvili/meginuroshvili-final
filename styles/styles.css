@@ -355,54 +355,32 @@
     display: flex;
     justify-content: space-around;
 }
-.images-wraper {
-    flex-wrap: wrap;
+.box-a, .box-b {
+    max-width: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-.box-a {
-    background-image: url(../images/index/project-1.jpg);
-    background-size: cover;
-    background-position: center;
+.box-a div, .box-b div {
     max-width: 283px;
     width: 100%;
-    height: 385px;
 }
-.box-b {
-    background-image: url(../images/index/project-2.jpg);
-    background-size: cover;
-    background-position: center;
-    max-width: 283px;
+.box-a div img, .box-b div img {
     width: 100%;
-    height: 385px;
-}
-.box-c {
-    background-image: url(../images/index/project-3.jpg);
-    background-size: cover;
-    background-position: center;
-    max-width: 283px;
-    width: 100%;
-    height: 385px;
-}
-.box-d {
-    background-image: url(../images/index/project-4.jpg);
-    background-size: cover;
-    background-position: center;
-    max-width: 283px;
-    width: 100%;
-    height: 385px;
 }
 .section4 {
     max-width: 1200px;
     width: 100%;
     margin: 100px auto;
 }
-.div-wraper {
+.div-wraper, .box-wraper {
     display: flex;
     justify-content: space-between;
 }
 .div-wraper img {
     margin-bottom: 30px;
 }
-.div-wraper div {
+.div-wraper div, .box-wraper div {
     width: 263px;
     height: 225px;
 }
@@ -427,12 +405,6 @@
     height: 0.3px;
     background-color: #c0c0c0;
     margin: 70px auto;
-}
-.box-wraper {
-    /* max-width: 1200px;
-    width: 100%; */
-    display: flex;
-    justify-content: space-between;
 }
 .box-wraper div {
     display: flex;
@@ -470,7 +442,8 @@
 .footer-bg input {
     outline: none;
     border: none;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 50px;
     padding: 20px;
     font-size: 14px;
@@ -521,6 +494,12 @@
     margin-bottom: 30px;
     width: 170px;
 }
+.boxes {
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .box h5 {
     color: white;
     font-size: 20px;
@@ -549,30 +528,12 @@
     justify-content: space-between;
     margin-top: -1em;
 }
-.terms {
-    width: 210px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .copyright p {
     color: var(--darkgrey);
     font-family: 'Roboto';
 }
 .copyright span {
     color: white;
-}
-.terms a {
-    color: var(--darkgrey);
-    font-family: 'Roboto';
-}
-.terms p:nth-child(1)::after {
-    content: '';
-    width: 1.5px;
-    height: 15px;
-    display: inline-block;
-    background-color: var(--darkgrey);
-    margin-left: 8px;
 }
 /* project html styles */
 /* header styles */
