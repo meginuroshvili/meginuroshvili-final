@@ -10,3 +10,11 @@ if(document.getElementById('submit')){
     })
 }
 
+// burger code 
+let navi = document.getElementById('navigation');
+
+let burgerBar = document.getElementById('burger-button'); 
+
+burgerBar.addEventListener('click', function(){
+    navi.classList.toggle('active')
+})
