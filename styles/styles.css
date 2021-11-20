@@ -56,7 +56,7 @@
     font-family: 'Roboto';
     font-weight: bold;
 }
-.header-section li:nth-child(1), .project-header li:nth-child(2), .about-header li:nth-child(3), .contact-header li:nth-child(5)  {
+.header-section li:nth-child(1), .project-header li:nth-child(2), .about-header li:nth-child(3), .contact-header li:nth-child(4)  {
     border-bottom: solid;
     border-radius: 1px;
     border-color: var(--yellow);
@@ -200,13 +200,13 @@
 }
 .standard a:hover:before {
     width: 98%;
-    height: 99%;
+    height: 98%;
     -webkit-transition-delay: 0s;
          -o-transition-delay: 0s;
             transition-delay: 0s;
 }
 .standard a:hover:after {
-    width: 99%;
+    width: 98%;
     height: 98%;
     -webkit-transition-delay: 0s;
          -o-transition-delay: 0s;
@@ -262,15 +262,15 @@
             transition-delay: 0.5s;
 }
 .project:hover:before {
-    width: 99%;
-    height: 99%;
+    width: 98%;
+    height: 98%;
     -webkit-transition-delay: 0s;
          -o-transition-delay: 0s;
             transition-delay: 0s;
 }
 .project:hover:after {
-    width: 99%;
-    height: 99%;
+    width: 98%;
+    height: 98%;
     -webkit-transition-delay: 0s;
          -o-transition-delay: 0s;
             transition-delay: 0s;
@@ -400,14 +400,14 @@
             transition-delay: 0.5s;
 }
 .section2 a:hover:before, .team a:hover:before, .project-section a:hover::before {
-    width: 99%;
+    width: 98%;
     height: 98%;
     -webkit-transition-delay: 0s;
          -o-transition-delay: 0s;
             transition-delay: 0s;
 }
 .section2 a:hover:after, .team a:hover:after, .project-section a:hover:after {
-    width: 99%;
+    width: 98%;
     height: 98%;
     -webkit-transition-delay: 0s;
          -o-transition-delay: 0s;

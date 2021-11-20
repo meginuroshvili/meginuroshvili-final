@@ -134,8 +134,11 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        margin-bottom: 400px;
+        margin-bottom: 350px;
         margin-top: 52px;
+    }
+    .cntct-number {
+        margin-bottom: 50px;
     }
     .bg-div li,
     .project-bg li,
