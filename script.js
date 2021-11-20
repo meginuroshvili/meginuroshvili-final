@@ -15,6 +15,11 @@ let navi = document.getElementById('navigation');
 
 let burgerBar = document.getElementById('burger-button'); 
 
+let info = document.getElementById('contact');
+
 burgerBar.addEventListener('click', function(){
     navi.classList.toggle('active')
+})
+burgerBar.addEventListener('click', function() {
+    info.classList.toggle('visible')
 })

@@ -94,7 +94,8 @@
     .bg-div nav,
     .project-bg nav,
     .about-bg nav,
-    .contact-header nav {
+    .contact-header nav,
+    .cntct-number {
         display: none;
     }
     .burger {
@@ -159,7 +160,8 @@
     .bg-div nav.active,
     .project-bg nav.active,
     .about-bg nav.active,
-    .contact-header nav.active {
+    .contact-header nav.active,
+    .cntct-number.visible {
         display: block;
     }
 }
