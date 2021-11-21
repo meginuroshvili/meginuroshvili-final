@@ -151,7 +151,7 @@
     .header-section li:nth-child(1),
     .project-header li:nth-child(2),
     .about-header li:nth-child(3),
-    .contact-header li:nth-child(5) {
+    .contact-header li:nth-child(4) {
         border: none;
     }
     .header-section li:hover,
